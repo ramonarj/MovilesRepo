@@ -1,0 +1,32 @@
+## 1. Para Android Studio
+.idea/
+.gradle/ # También vale para Unity
+build/
+*.iml
+
+## 2. Para Unity
+*/[Ll]ibrary/
+*/[Tt]emp/
+*/[Oo]bj/
+*/[Bb]uild/
+*/[Bb]uilds/
+*/[Ll]ogs/
+*/[Mm]emoryCaptures/
+
+# No ignorarar los metadatos
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio 
+.vs/
+
+# Autogenerados
+*.csproj
+*.unityproj
+*.sln
+*.tmp
+*.user
+*.userprefs
+
+# Builds
+*.apk
+*.unitypackage

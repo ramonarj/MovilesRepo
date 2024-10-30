@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidBoot/AndroidBoot.iml" filepath="$PROJECT_DIR$/AndroidBoot/AndroidBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidModule/AndroidModule.iml" filepath="$PROJECT_DIR$/AndroidModule/AndroidModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceModule/InterfaceModule.iml" filepath="$PROJECT_DIR$/InterfaceModule/InterfaceModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PCBoot/PCBoot.iml" filepath="$PROJECT_DIR$/PCBoot/PCBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PCModule/PCModule.iml" filepath="$PROJECT_DIR$/PCModule/PCModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchDash.iml" filepath="$PROJECT_DIR$/SwitchDash.iml" />
+    </modules>
+  </component>
+</project>

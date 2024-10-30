@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4143655162841945920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4143655162841945983}
+  - component: {fileID: 4143655162841945982}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4143655162841945983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143655162841945920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4143655162841945982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143655162841945920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4622feb84b3f7740bd67db18c4259ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefabs:
+  - {fileID: 4663745642680385067, guid: 37642c8944fb5d24f813b15824e3d8f2, type: 3}
+  - {fileID: 4956723862429033716, guid: 73f06e0f00f928f49b0eed881f5a60d0, type: 3}
+  - {fileID: 3436931589511718759, guid: 28d1599ee17bcc5478b9238a329ac3c4, type: 3}
+  - {fileID: 8686613347451905420, guid: 2c6de8a57fb678c40ac6f20dcf108a94, type: 3}
+  - {fileID: 5606751859495026462, guid: 7dc014e7f7ad2444d9987bd92a3d7f96, type: 3}
+  - {fileID: 7550830179614547939, guid: 813c123c1d23036458df4df9c176c1ee, type: 3}
+  - {fileID: 4817954213707268766, guid: cbc19cd76403cdb41b8ebf8baff20567, type: 3}
+  mousePrefabs:
+  - {fileID: 2669031406613673423, guid: dc9f0ef54938b654f8dee473e95a4f99, type: 3}
+  - {fileID: 548071667655756792, guid: ff6a5eb156d35894b861e82ea6ad3800, type: 3}
+  - {fileID: 4618745608125749846, guid: 6d694ea3ac3e9be499982c84c46cf2e7, type: 3}
+  - {fileID: 5936679575949757701, guid: c9ed6b2b836f336479fd4970f94f9756, type: 3}
+  - {fileID: 2582551277749170252, guid: c68a9a74b340b3d4092cbbab8813bd04, type: 3}
+  - {fileID: 5106745122076470483, guid: fc2b8ab7ffa009341bd41d849baaacb7, type: 3}
+  - {fileID: 618520622367573901, guid: 2deacc3d0829cde4abd0a3e21a793816, type: 3}
+  WinPanel: {fileID: 0}
+  connectSound: {fileID: 8300000, guid: f116c6b00855db147b364aa08bafd324, type: 3}
+  winSound: {fileID: 8300000, guid: 4d7f2149c7d9fa945a9fd174ac2c5877, type: 3}
+  restartSound: {fileID: 8300000, guid: 29e68698006cfa742a93370efec4b578, type: 3}
